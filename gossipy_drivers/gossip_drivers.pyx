@@ -104,7 +104,7 @@ cdef RouteList routes_from_file(const char * filename):
             len_line += 1
             route_list.routes[i] = <int *>realloc(route_list.routes[i], len_line * sizeof(int))
             if not route_list.routes[i]:
-                    return empty
+                return empty
         route_list.len_routes[i] = len_line
 
     return route_list
