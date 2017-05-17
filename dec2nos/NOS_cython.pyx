@@ -134,12 +134,3 @@ def calculate_ex(seq, length):
 
 def generate_sequence_ex(number):
     return generate_sequence(number).decode()
-
-def main():
-    pass
-    # start_time = time()
-    # print("Generating shortest sequences for numbers 1 to 500:")
-    # cdef num = 0
-    # for num in range(1, 501):
-    #     print(str(num)+': {}'.format(generate_sequence(num)))
-    # print("It only took {} seconds".format(time() - start_time))
