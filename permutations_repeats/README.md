@@ -3,7 +3,7 @@
 The number of permutations of a list that includes repeats is (factorial of list length) / (product of factorials of each items repeat frequency)
 for the list 0 0 1 2 the permutations in order are
 ```
-    0 0 1 2
+        0 0 1 2
 	0 0 2 1    
 	0 1 0 2   
 	0 1 2 0
