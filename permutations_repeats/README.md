@@ -55,6 +55,17 @@ input:```**
 	8 8 8 8 8 8 8 8 8 7 7 7 6 5 0 1 2 5 0 1 2 0 0 1 1 5 4 3 2 1 0 6 7 8
 ```
 
+**3. bonus
+
+use the above function and wednesday's combination number (optional) to compress/encode a list into a fixed set of numbers (with enough information to decode it)
+
+**```input:```**
+```
+hello, heely owler world!
+```
+
+You might wish to convert to ascii, then calculate the combination number for the unique ascii codes, then calculate the permutation number with each letter replaced by contiguous indexes.
+
 # Results
 
 ```
@@ -90,6 +101,7 @@ input:```**
 [8 8 8 8 8 8 8 8 8 7 7 7 6 5 0 1 2 5 0 1 2 0 0 1 1 5 4 3 2 1 0 6 7 8]
 10000 loops, 5.698170639807358e-05 secs per loop.
 
+# ASCII Codes for "hello, heely owler world!"
 104 101 108 108 111 44 32 104 101 101 108 121 32 111 119 108 101 114 32 119 111 114 108 100 33
 7993781807462119055
 10000 loops, 3.8503253099042925e-05 secs per loop.
