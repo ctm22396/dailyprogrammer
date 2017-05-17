@@ -42,7 +42,7 @@ The permutation number is similar to Monday and Wednesday's challenge. But only 
 **```input is in format: permutation_number, sorted list to permute
 input:```**
 ```
-    719, 0 1 2 3 4 5  
+        719, 0 1 2 3 4 5  
 	11, 0 0 1 2
 	10577286119, 0 0 0 0 0 1 1 1 1 1 2 2 2 3 4 5 5 5
 	3269605362042919527837624, 0 0 0 0 0 1 1 1 1 1 2 2 2 3 4 5 5 5 6 6 7 7 7 7 8 8 8 8 8 8 8 8 8 8
